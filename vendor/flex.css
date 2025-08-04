@@ -1,0 +1,105 @@
+/* Свойства display
+   ========================================================================== */
+
+/**
+ * 1. Гибкий родитель, растянут на всю ширину.
+ * 2. Гибкий родитель, ширина по контенту.
+ */
+.flex {
+  display: flex; /* 1 */
+}
+
+.inline-flex {
+  display: inline-flex; /* 2 */
+}
+
+/* Свойства flex-direction
+     ========================================================================== */
+
+.row {
+  flex-direction: row; /* 1 */
+}
+
+.column {
+  flex-direction: column; /* 2 */
+}
+
+/* Свойства flex-wrap
+     ========================================================================== */
+
+.nowrap {
+  flex-wrap: nowrap; /* 1 */
+}
+
+.wrap {
+  flex-wrap: wrap; /* 2 */
+}
+
+.justify-start {
+  justify-content: flex-start; /* 1 */
+}
+
+.justify-center {
+  justify-content: center; /* 2 */
+}
+
+.justify-end {
+  justify-content: flex-end; /* 3 */
+}
+
+.justify-between {
+  justify-content: space-between; /* 4 */
+}
+
+.justify-around {
+  justify-content: space-around; /* 5 */
+}
+
+.justify-evenly {
+  justify-content: space-evenly; /* 6 */
+}
+
+/* Свойства align-items
+     ========================================================================== */
+
+/**
+   * 1. Высоту необходимо выставить автоматически в зависимости от максимальной высоты родителя (дефолтное свойство). 
+   * 2. Расположение элементов с начала флекс-контейнера по поперечной оси.
+   * 3. По центру поперечной оси.
+   * 4. Элементы внутри флекс-контейнера располагаются от конца поперечной оси.
+   * 5. Базовая линия шрифта - воображаемая прямая линия, которая проводится по нижнему краю букв без учёта выносных элементов
+   */
+.align-stretch {
+  align-items: stretch; /* 1 */
+}
+
+.align-start {
+  align-items: flex-start; /* 2 */
+}
+
+.align-center {
+  align-items: center; /* 3 */
+}
+
+.align-end {
+  align-items: flex-end; /* 4 */
+}
+
+.align-baseline {
+  align-items: baseline; /* 5 */
+}
+.g-5{
+  gap: 5px;
+}
+.g-8{
+  gap: 8px;
+}
+.g-10{
+  gap: 10px;
+}
+.g-16 {
+  gap: 16px;
+}
+.g-40 {
+  gap: 40px;
+}

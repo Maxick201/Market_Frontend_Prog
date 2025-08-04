@@ -1,0 +1,17 @@
+.burger-line{
+    width: 19px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+.header-left button:hover{
+    background-color: #309117;
+}
+.catalog-btn-desc{
+    min-width: 92px;
+}
+.search-field{
+    border: 1px solid #70C05B;
+}
+.header-right img{
+    width: 21px;
+}
