@@ -37,14 +37,12 @@ header {
   align-items: center;
   width: 120px;
   height: 24px;
-
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #606060;
   text-decoration: none;
-
   transition: color 0.2s ease;
 }
 
@@ -148,18 +146,30 @@ a {
 }
 
 .promo-banner {
-  background-image: url('/assets/img/banner/pattern2 (4).svg');
+  margin-top: 5px;
+  background-image: url('/assets/img/banner/banner.svg');
   background-color:white !important;
+
+}
+
+.All-discount
+{
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  line-height: 150%;
+  color: #414141;
+  background-color: #fbf8ec !important;
+  white-space: nowrap !important;
+}
+
+.small-arrow-left{
+
 }
 
 .section-title {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 150%;
-  color: #414141;
-  margin-bottom: 24px;
-  width: 1000px;
+  font-size: 32px;
 }
 
 body {
@@ -286,16 +296,6 @@ p {
   background-color: #f2f2f2;
 }
 
-.section-title {
-  font-size: 32px;
-  font-weight: bold;
-  color: #414141;
-  text-align: left;
-  margin-bottom: 32px;
-  padding-left: 16px;
-  margin-left: 250px;
-}
-
 .card-price {
   display: flex;
   justify-content: flex-start;
@@ -408,7 +408,7 @@ p {
 }
 
 .card-image {
-  width: 206.76px;
+  width: 289.76px
   height: 138.16px;
   transform: rotate(2deg);
   border-radius: 10px;
@@ -485,12 +485,6 @@ body {
   margin: 0 auto;
 }
 
-.section-title {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 24px;
-  color: #333;
-}
 
 .shop-tabs {
   display: flex;
